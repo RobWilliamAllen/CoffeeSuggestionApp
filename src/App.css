@@ -1,0 +1,71 @@
+*{
+  font-family: 'Raleway', sans-serif; 
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+ }
+body {
+  background: linear-gradient(135deg, #B77A4D 60%, #ebf8e1)
+}
+
+button {
+  margin-left: 20px;
+  padding: 10px;
+  }
+input {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.outerContainer {  
+  font-size: 26px;      
+  width: 100vw; 
+  height: 100vh;
+  display: flex;  
+}
+
+.innerContainer {   
+  width: 800px;
+  height: 600px;
+  margin: auto;  
+  background-color: pink;  
+}
+
+.textContent { 
+  color: white;
+  background-color: black;    
+  display: inline-block;  
+  height: 100%;
+  width: 100%;   
+  padding: 20px;
+  box-shadow: 10px 10px #34211D;
+}
+.buttonDiv{ 
+  display: flex;
+  align-items: center; 
+  padding-left: 60px;
+  padding-top: 40px;  
+}
+
+.question{
+  padding-top: 60px;
+  padding-left: 60px;
+}
+.nextButton {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.boldText {
+  font-weight: bold;
+}
+.smallText{
+  font-size: 20px;
+}
+.resetFontStyle {
+  font-weight: normal;  
+}
+.hideElement {
+  display: none;
+}
