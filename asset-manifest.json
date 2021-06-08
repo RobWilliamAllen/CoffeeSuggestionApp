@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/CoffeeSuggestionApp/static/css/main.4789cf52.chunk.css",
-    "main.js": "/CoffeeSuggestionApp/static/js/main.f32c172a.chunk.js",
-    "main.js.map": "/CoffeeSuggestionApp/static/js/main.f32c172a.chunk.js.map",
+    "main.js": "/CoffeeSuggestionApp/static/js/main.66d6e3ef.chunk.js",
+    "main.js.map": "/CoffeeSuggestionApp/static/js/main.66d6e3ef.chunk.js.map",
     "runtime-main.js": "/CoffeeSuggestionApp/static/js/runtime-main.dbbb9e97.js",
     "runtime-main.js.map": "/CoffeeSuggestionApp/static/js/runtime-main.dbbb9e97.js.map",
     "static/js/2.1a6a67d0.chunk.js": "/CoffeeSuggestionApp/static/js/2.1a6a67d0.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.dbbb9e97.js",
     "static/js/2.1a6a67d0.chunk.js",
     "static/css/main.4789cf52.chunk.css",
-    "static/js/main.f32c172a.chunk.js"
+    "static/js/main.66d6e3ef.chunk.js"
   ]
 }
