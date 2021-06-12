@@ -13,7 +13,9 @@ class App extends React.Component {
       origin: '',
       flavour: 6, 
       displaySlide1: true,
-      displaySlide2: false,    
+      displaySlide2: false, 
+      filterButtonOpacity: '',
+      espressoButtonOpacity: '',
     };      
     
      this.setCoffeeTypeFilter = this.setCoffeeTypeFilter.bind(this);
@@ -26,19 +28,23 @@ class App extends React.Component {
 
   onClick() {
       this.setState( {
-      coffeeType: 'Filter Coffee'
+      coffeeType: 'Filter Coffee'      
     });
   };
   
   setCoffeeTypeFilter() {
     this.setState( {
-      coffeeType: 'Filter Coffee'
+      coffeeType: 'Filter Coffee',
+      filterButtonOpacity: '', 
+      espressoButtonOpacity: '50%',      
     });
   };
   
   setCoffeeTypeEspresso() {
     this.setState( {
-      coffeeType: 'Espresso Coffee'
+      coffeeType: 'Espresso Coffee',
+      filterButtonOpacity: '50%',
+      espressoButtonOpacity: '',  
     });
   };
   
@@ -87,8 +93,12 @@ class App extends React.Component {
               </div>
               <div className="buttonDiv"> 
                 <p>What type of coffee are you making?</p>            
-                <FilterButton onClick={this.setCoffeeTypeFilter}  /> 
-                <EspressoButton onClick={this.setCoffeeTypeEspresso} />                 
+                <div style={{opacity:this.state.filterButtonOpacity}}>
+                  <FilterButton onClick={this.setCoffeeTypeFilter} /> 
+                </div>
+                <div style={{opacity:this.state.espressoButtonOpacity}}>
+                  <EspressoButton onClick={this.setCoffeeTypeEspresso} /> 
+                </div>
               </div>             
               <div className="question">               
                   <FlavourSlider  onChange={this.setflavour} />       
@@ -116,8 +126,7 @@ class App extends React.Component {
   } 
 } 
 
-class UserSelections extends React.Component {
-  
+class UserSelections extends React.Component { 
   render() {  
     
     return (   
@@ -159,12 +168,12 @@ class UserSelections extends React.Component {
 } 
 
 
-const FilterButton = ({ onClick }) => (  
-    <button onClick={onClick} type="button">Filter Coffee</button>  
+const FilterButton = ({ onClick }) => (    
+      <button onClick={onClick} type="button">Filter Coffee</button>  
 );
 
-const EspressoButton = ({ onClick }) => (
-  <button onClick={onClick} type="button">Espresso Coffee</button>     
+const EspressoButton = ({ onClick }) => (  
+    <button onClick={onClick} type="button">Espresso Coffee</button>    
 );
 
 const NumberOfCups  = ({ onChange }) => (  
