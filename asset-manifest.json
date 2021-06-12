@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/CoffeeSuggestionApp/static/css/main.4789cf52.chunk.css",
+    "main.css": "/CoffeeSuggestionApp/static/css/main.886fa4e2.chunk.css",
     "main.js": "/CoffeeSuggestionApp/static/js/main.66d6e3ef.chunk.js",
     "main.js.map": "/CoffeeSuggestionApp/static/js/main.66d6e3ef.chunk.js.map",
     "runtime-main.js": "/CoffeeSuggestionApp/static/js/runtime-main.dbbb9e97.js",
@@ -10,13 +10,13 @@
     "static/js/3.ec0beb77.chunk.js": "/CoffeeSuggestionApp/static/js/3.ec0beb77.chunk.js",
     "static/js/3.ec0beb77.chunk.js.map": "/CoffeeSuggestionApp/static/js/3.ec0beb77.chunk.js.map",
     "index.html": "/CoffeeSuggestionApp/index.html",
-    "static/css/main.4789cf52.chunk.css.map": "/CoffeeSuggestionApp/static/css/main.4789cf52.chunk.css.map",
+    "static/css/main.886fa4e2.chunk.css.map": "/CoffeeSuggestionApp/static/css/main.886fa4e2.chunk.css.map",
     "static/js/2.1a6a67d0.chunk.js.LICENSE.txt": "/CoffeeSuggestionApp/static/js/2.1a6a67d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.dbbb9e97.js",
     "static/js/2.1a6a67d0.chunk.js",
-    "static/css/main.4789cf52.chunk.css",
+    "static/css/main.886fa4e2.chunk.css",
     "static/js/main.66d6e3ef.chunk.js"
   ]
 }
